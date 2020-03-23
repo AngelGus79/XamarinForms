@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinCourse.StackLayoutPage02">
+    <StackLayout>
+        <Label Text="Nyc_ photographer" FontSize="15"></Label>
+
+        <Image Source="https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-600w-1048185397.jpg" HeightRequest="300"/>
+
+        <StackLayout  Orientation="Horizontal">
+            <Button Text="Like" TextColor="Blue" BackgroundColor="White"></Button>
+            <Button Text="Comment" TextColor="Blue" BackgroundColor="White"></Button>
+            <Button Text="Share" TextColor="Blue" BackgroundColor="White"></Button>
+        </StackLayout>
+        <BoxView Color="#f0f0f0" HeightRequest="1"></BoxView>
+        <StackLayout Padding="30">
+        
+        <Label FontAttributes="Bold" Text="700 Likes" FontSize="15"></Label>
+            <Label HorizontalTextAlignment="Start">
+This is a shot yesterday in Skanor, Sweden, 
+when driving home from a couple of day of 
+work in Denmark</Label>
+    </StackLayout>
+        
+    </StackLayout>
+</ContentPage>
