@@ -12,7 +12,8 @@ namespace XamarinCourse
 
             //MainPage = new BindingSliderPage();
             //MainPage = new BindingContextPage();
-            MainPage = new XamlEssentialsPage();
+            //MainPage = new XamlEssentialsPage();
+            MainPage = new StackLayoutPage();
         }
 
         protected override void OnStart()
