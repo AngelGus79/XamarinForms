@@ -15,7 +15,8 @@ namespace XamarinCourse
             //MainPage = new XamlEssentialsPage();
             //MainPage = new StackLayoutPage();
             //MainPage = new StackLayoutPage02();
-            MainPage = new GridLayoutPage();
+            //MainPage = new GridLayoutPage();
+            MainPage = new GridLayoutPage02();
 
         }
 
