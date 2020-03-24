@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinCourse.AbsoluteLayoutPage02">
+
+    <AbsoluteLayout>
+
+        <Image AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill" Source="https://image.shutterstock.com/image-photo/bright-spring-view-cameo-island-600w-1048185397.jpg"></Image>
+        <Label  FontSize="30" TextColor="#fff" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutBounds="0.5, 20, 0.5, 1" AbsoluteLayout.LayoutFlags="XProportional, SizeProportional" Text="Relax"></Label>
+        
+        <BoxView AbsoluteLayout.LayoutBounds="0, 1, 1, 100" AbsoluteLayout.LayoutFlags="WidthProportional, PositionProportional" BackgroundColor="Blue" Opacity="0.5"></BoxView>
+        <StackLayout AbsoluteLayout.LayoutBounds="0, 1, 1, 100" AbsoluteLayout.LayoutFlags="WidthProportional, PositionProportional" Padding="30, 0"  Orientation="Horizontal" HorizontalOptions="Center">
+            <Button BackgroundColor="Transparent" Text="Profile" TextColor="#fff" HorizontalOptions="Center"></Button>
+            <Button BackgroundColor="Transparent" Text="Meditate" TextColor="#fff" HorizontalOptions="CenterAndExpand"></Button>
+            <Button BackgroundColor="Transparent" Text="Themes" TextColor="#fff" HorizontalOptions="Center"></Button>
+        </StackLayout>
+        
+    </AbsoluteLayout>
+    
+</ContentPage>
